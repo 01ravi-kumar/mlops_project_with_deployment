@@ -1,1 +1,88 @@
 [2023-09-10 12:11:48,562: INFO: main: We are started using the logger]
+[2023-09-10 14:18:01,793: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage started <<<<<<<<<<<<<]
+[2023-09-10 14:18:01,793: ERROR: main: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\main.py", line 10, in <module>
+    obj.main()
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\pipeline\stage_01_data_ingestion.py", line 20, in main
+    raise e
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\pipeline\stage_01_data_ingestion.py", line 14, in main
+    congif = ConfigurationManager()
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\config\configuration.py", line 13, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\ravi2\projects\mlops_project\mlops_env\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\utils\common.py", line 38, in read_yaml
+    raise e
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\utils\common.py", line 30, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2023-09-10 14:20:07,126: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage started <<<<<<<<<<<<<]
+[2023-09-10 14:20:07,126: ERROR: main: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\main.py", line 10, in <module>
+    obj.main()
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\pipeline\stage_01_data_ingestion.py", line 20, in main
+    raise e
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\pipeline\stage_01_data_ingestion.py", line 14, in main
+    congif = ConfigurationManager()
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\config\configuration.py", line 13, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\ravi2\projects\mlops_project\mlops_env\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\utils\common.py", line 39, in read_yaml
+    raise e
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\utils\common.py", line 30, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2023-09-10 14:21:00,277: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage started <<<<<<<<<<<<<]
+[2023-09-10 14:21:00,277: ERROR: main: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\main.py", line 10, in <module>
+    obj.main()
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\pipeline\stage_01_data_ingestion.py", line 20, in main
+    raise e
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\pipeline\stage_01_data_ingestion.py", line 14, in main
+    congif = ConfigurationManager()
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\config\configuration.py", line 13, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\ravi2\projects\mlops_project\mlops_env\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\utils\common.py", line 39, in read_yaml
+    raise e
+  File "c:\Users\ravi2\projects\mlops_project\mlops_project_with_deployment\src\MLOps_project_dev_v1\utils\common.py", line 31, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2023-09-10 14:25:20,669: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage started <<<<<<<<<<<<<]
+[2023-09-10 14:25:20,669: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-10 14:25:20,669: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-10 14:25:20,669: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-10 14:25:20,684: INFO: common: created directory at: artifacts]
+[2023-09-10 14:25:20,684: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-09-10 14:25:21,674: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following header:Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B330:32C7D4:1B7609:2966AF:64FD7ED7
+Accept-Ranges: bytes
+Date: Sun, 10 Sep 2023 08:55:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830047-CCU
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1694336122.110008,VS0,VE315
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d416c818c7585bcaafd8344793d90fa5ef55a1e4
+Expires: Sun, 10 Sep 2023 09:00:22 GMT
+Source-Age: 0
+
+]
+[2023-09-10 14:25:21,718: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage completed <<<<<<<<<<<<<]

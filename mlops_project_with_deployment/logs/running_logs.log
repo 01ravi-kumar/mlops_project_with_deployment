@@ -1,0 +1,40 @@
+[2023-09-10 13:51:12,507: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-10 13:53:26,773: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-10 13:59:07,892: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-10 13:59:23,569: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-10 13:59:23,583: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-10 13:59:23,595: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-10 13:59:49,538: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-10 13:59:49,543: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-10 13:59:49,543: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-10 14:01:19,405: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-10 14:01:19,410: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-10 14:01:19,410: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-10 14:01:19,418: INFO: common: created directory at: artifacts]
+[2023-09-10 14:01:19,418: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-09-10 14:01:20,422: INFO: 516376290: artifacts/data_ingestion/data.zip downloaded! with the following header:Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B330:32C7D4:1B7609:2966AF:64FD7ED7
+Accept-Ranges: bytes
+Date: Sun, 10 Sep 2023 08:31:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830031-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1694334681.850450,VS0,VE326
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: be84be717c81db977951718eda87be7a3a68d1ee
+Expires: Sun, 10 Sep 2023 08:36:21 GMT
+Source-Age: 0
+
+]
