@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ravi2/projects/mlops_project/mlops_project_with_deployment/mlruns/0/eb550469eb024560ac9bdfab1e4b6e22/artifacts
+end_time: 1694934597481
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb550469eb024560ac9bdfab1e4b6e22
+run_name: efficient-midge-169
+run_uuid: eb550469eb024560ac9bdfab1e4b6e22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694934593063
+status: 3
+tags: []
+user_id: ravi2

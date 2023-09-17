@@ -1,4 +1,4 @@
-from src.MLOps_project_dev_v1.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
+from src.MLOps_project_dev_v1.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig
 from src.MLOps_project_dev_v1.constants import *
 from src.MLOps_project_dev_v1.utils.common import read_yaml, create_directories 
 
@@ -81,3 +81,23 @@ class ConfigurationManager:
         )
 
         return model_trainer_config
+    
+
+    def get_model_evaluation_config(self):
+        config = self.config.model_evaluation
+        param = self.params.ElasticNet
+        schema = self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir=config.root_dir, 
+            test_data_path= config.test_data_path,
+            model_path= config.model_path,
+            all_params= param,
+            metric_file_name=config.metric_file_name,
+            target_column= schema.name,
+            mlflow_uri="https://dagshub.com/01ravi-kumar/mlops_project_with_deployment.mlflow",
+        )
+
+        return model_evaluation_config
