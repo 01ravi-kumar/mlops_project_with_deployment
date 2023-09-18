@@ -524,3 +524,142 @@ Source-Age: 284
 [2023-09-17 12:49:24,910: INFO: common: created directory at: artifacts/model_evaluation]
 [2023-09-17 12:49:25,660: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
 [2023-09-17 12:49:55,394: INFO: main: >>>>>>>>>>>> stage: Model Evalutaion Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:08:36,646: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.15:8080]
+[2023-09-18 21:08:36,648: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-09-18 21:08:36,651: INFO: _internal:  * Restarting with stat]
+[2023-09-18 21:08:37,565: WARNING: _internal:  * Debugger is active!]
+[2023-09-18 21:08:37,577: INFO: _internal:  * Debugger PIN: 696-189-816]
+[2023-09-18 21:08:51,892: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:08:51] "GET / HTTP/1.1" 200 -]
+[2023-09-18 21:09:51,235: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:09:51] "GET / HTTP/1.1" 200 -]
+[2023-09-18 21:10:52,756: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:52] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2023-09-18 21:10:52,757: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:52] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2023-09-18 21:10:52,772: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:52] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2023-09-18 21:10:52,798: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:52] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2023-09-18 21:10:54,238: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:54] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2023-09-18 21:10:54,247: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:54] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2023-09-18 21:10:54,379: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:54] "GET / HTTP/1.1" 200 -]
+[2023-09-18 21:10:54,661: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:54] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2023-09-18 21:10:54,742: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:54] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2023-09-18 21:10:55,558: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:10:55] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-09-18 21:11:56,153: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:11:56] "[33mGET /retrain HTTP/1.1[0m" 404 -]
+[2023-09-18 21:11:56,222: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:11:56] "[33mGET /retrain HTTP/1.1[0m" 404 -]
+[2023-09-18 21:11:56,648: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:11:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2023-09-18 21:12:25,889: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:25,902: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:25,912: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:25,921: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:25,922: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:25,923: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-09-18 21:12:26,989: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with the following header:Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 790E:255FE2:13CC98:1C040E:6503B658
+Accept-Ranges: bytes
+Date: Mon, 18 Sep 2023 15:42:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830020-CCU
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1695051747.558863,VS0,VE429
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 059eae58a07f49dc1425fac4cc262465b962a1c1
+Expires: Mon, 18 Sep 2023 15:47:26 GMT
+Source-Age: 0
+
+]
+[2023-09-18 21:12:27,004: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:27,004: INFO: main: >>>>>>>>>>>> stage: Data Validation Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:27,012: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:27,015: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:27,022: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:27,023: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:27,027: INFO: common: created directory at: artifacts/data_validation]
+[2023-09-18 21:12:27,053: INFO: main: >>>>>>>>>>>> stage: Data Validation Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:27,053: INFO: main: >>>>>>>>>>>> stage: Data Transformation Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:27,070: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:27,082: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:27,087: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:27,088: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:27,089: INFO: common: created directory at: artifacts/data_transformation]
+[2023-09-18 21:12:27,123: INFO: data_transformation: Splited data into training and test sets]
+[2023-09-18 21:12:27,123: INFO: data_transformation: (1199, 12)]
+[2023-09-18 21:12:27,126: INFO: data_transformation: (400, 12)]
+[2023-09-18 21:12:27,129: INFO: main: >>>>>>>>>>>> stage: Data Transformation Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:27,130: INFO: main: >>>>>>>>>>>> stage: Model Trainer Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:27,133: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:27,134: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:27,136: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:27,137: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:27,138: INFO: common: created directory at: artifacts/model_trainer]
+[2023-09-18 21:12:27,172: INFO: main: >>>>>>>>>>>> stage: Model Trainer Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:27,173: INFO: main: >>>>>>>>>>>> stage: Model Evalutaion Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:27,179: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:27,181: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:27,183: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:27,184: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:27,185: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-09-18 21:12:28,148: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-09-18 21:12:40,869: INFO: main: >>>>>>>>>>>> stage: Model Evalutaion Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:41,203: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:12:41] "GET /train HTTP/1.1" 200 -]
+[2023-09-18 21:12:43,921: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:43,921: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:43,921: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:43,921: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:43,937: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:43,937: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-09-18 21:12:43,937: INFO: data_ingestion: file already exist of size :~ 23 KB]
+[2023-09-18 21:12:43,937: INFO: main: >>>>>>>>>>>> stage: Data Ingestion Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:43,937: INFO: main: >>>>>>>>>>>> stage: Data Validation Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:43,937: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:43,937: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:43,949: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:43,949: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:43,949: INFO: common: created directory at: artifacts/data_validation]
+[2023-09-18 21:12:43,965: INFO: main: >>>>>>>>>>>> stage: Data Validation Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:43,965: INFO: main: >>>>>>>>>>>> stage: Data Transformation Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:43,965: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:43,965: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:43,965: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:43,965: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:43,965: INFO: common: created directory at: artifacts/data_transformation]
+[2023-09-18 21:12:43,996: INFO: data_transformation: Splited data into training and test sets]
+[2023-09-18 21:12:43,996: INFO: data_transformation: (1199, 12)]
+[2023-09-18 21:12:43,996: INFO: data_transformation: (400, 12)]
+[2023-09-18 21:12:43,996: INFO: main: >>>>>>>>>>>> stage: Data Transformation Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:43,996: INFO: main: >>>>>>>>>>>> stage: Model Trainer Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:43,996: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:43,996: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:43,996: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:44,012: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:44,012: INFO: common: created directory at: artifacts/model_trainer]
+[2023-09-18 21:12:44,043: INFO: main: >>>>>>>>>>>> stage: Model Trainer Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:12:44,043: INFO: main: >>>>>>>>>>>> stage: Model Evalutaion Stage started <<<<<<<<<<<<<]
+[2023-09-18 21:12:44,043: INFO: common: yaml file:config\config.yaml loaded sucessfully]
+[2023-09-18 21:12:44,043: INFO: common: yaml file:params.yaml loaded sucessfully]
+[2023-09-18 21:12:44,043: INFO: common: yaml file:schema.yaml loaded sucessfully]
+[2023-09-18 21:12:44,043: INFO: common: created directory at: artifacts]
+[2023-09-18 21:12:44,043: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-09-18 21:12:44,809: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-09-18 21:13:07,140: INFO: main: >>>>>>>>>>>> stage: Model Evalutaion Stage completed <<<<<<<<<<<<<]
+[2023-09-18 21:13:07,462: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:13:07] "GET /train HTTP/1.1" 200 -]
+[2023-09-18 21:14:17,348: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:14:17] "[33mGET /retrain HTTP/1.1[0m" 404 -]
+[2023-09-18 21:14:18,084: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:14:18] "GET / HTTP/1.1" 200 -]
+[2023-09-18 21:14:19,333: INFO: _internal: 127.0.0.1 - - [18/Sep/2023 21:14:19] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
+[2023-09-18 22:05:35,134: INFO: _internal:  * Detected change in 'C:\\Users\\ravi2\\projects\\mlops_project\\mlops_project_with_deployment\\app.py', reloading]
+[2023-09-18 22:05:35,247: INFO: _internal:  * Restarting with stat]
+[2023-09-18 22:05:36,290: WARNING: _internal:  * Debugger is active!]
+[2023-09-18 22:05:36,295: INFO: _internal:  * Debugger PIN: 696-189-816]
+[2023-09-18 22:05:41,668: INFO: _internal:  * Detected change in 'C:\\Users\\ravi2\\projects\\mlops_project\\mlops_project_with_deployment\\app.py', reloading]
+[2023-09-18 22:05:41,779: INFO: _internal:  * Restarting with stat]
